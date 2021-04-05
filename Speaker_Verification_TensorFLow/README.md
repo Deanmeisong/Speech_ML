@@ -1,14 +1,6 @@
 # Speaker_Verification
 Tensorflow implementation of generalized end-to-end loss for speaker verification
 
-### Explanation
-- This code is the implementation of generalized end-to-end loss for speaker verification (https://arxiv.org/abs/1710.10467)
-- This paper improved the previous work (End-to-End Text-Dependent Speaker Verification, https://arxiv.org/abs/1509.08062)
-
-### Speaker Verification
-- Speaker verification task is 1-1 check for the specific enrolled voice and the new voice. This task needs higher accuracy than speaker identification which is N-1 check for N enrolled voices and a new voice. 
-- There are two types of speaker verification. 1) Text dependent speaker verification (TD-SV). 2) Text independent speaker verification (TI-SV). The former uses text specific utterances for enrollment and verification, whereas the latter uses text independent utterances.
-- Each forward step in this paper, similarity matrix of utterances are calculated and the integrated loss is used for objective function. (Section 2.1)
 
 
 ### Files
@@ -62,9 +54,6 @@ Random selected utterances are used. I test the model after 60000 iteration. Equ
 
 <img src=Results/TISV_결과.JPG width="400">
 
-
-### LICENSE
-MIT License
 
 
 
